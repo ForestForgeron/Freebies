@@ -23,6 +23,7 @@
     width: 23%;
     border: 2px solid #dddddd;
     border-radius: 10px;
+    background-color: #fff;
     transition: border .4s; }
   .pricing__card:hover {
     border: 2px solid #f53838; }
