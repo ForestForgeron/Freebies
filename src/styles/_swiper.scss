@@ -1,0 +1,57 @@
+.card-slider.swiper-container {
+  position: relative;
+  left: 0;
+  padding-bottom: 204px;
+  width: 1290px;
+}
+
+.card-slider .card-slider__wrapper {
+  margin-bottom: 82px;
+}
+
+.card-slider .swiper__slide {
+
+}
+
+.card-slider .swiper-slide-active .card{
+  border: 2px solid #f53838;
+  width: 400px;
+}
+
+// pagination
+.card-slider .swiper-pagination {
+  display: flex;
+  //padding-top: 80px;
+
+  gap: 15px;
+}
+
+// bullets
+.card-slider .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+
+  font-size: 0;
+
+  background-color: #dde0e4;
+  opacity: 1;
+
+  border-radius: 50%;
+}
+
+.card-slider .swiper-pagination-bullet-active {
+  width: 45px;
+  height: 15px;
+
+  background-color: #f53838;
+
+  border-radius: 35px;
+}
+
+.card-slider .swiper-button-prev {
+
+}
+
+.card-slider .swiper-button-next {
+
+}
