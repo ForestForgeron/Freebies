@@ -439,6 +439,16 @@ footer {
   background-color: #f53838;
   border-radius: 35px; }
 
+.card-slider .swiper-button-prev {
+  position: absolute;
+  top: 125px;
+  left: 0px; }
+
+.card-slider .swiper-button-next {
+  position: absolute;
+  top: 125px;
+  right: 10px; }
+
 /* Слайдер */
 .slick-slider {
   min-width: 0; }
@@ -641,11 +651,14 @@ footer {
     gap: 10px; }
 
 @media screen and (max-width: 760px) {
-  .fmenu__product-list li {
-    font-size: 12px; }
-  .fmenu__engage-list li {
-    font-size: 12px; }
-  .fmenu__money-list li {
-    font-size: 12px; }
-  .fmenu__list {
-    gap: 2px; } }
+  .fmenu {
+    width: 100%;
+    gap: 20px; }
+    .fmenu__product-list li {
+      font-size: 12px; }
+    .fmenu__engage-list li {
+      font-size: 12px; }
+    .fmenu__money-list li {
+      font-size: 12px; }
+    .fmenu__list {
+      gap: 2px; } }

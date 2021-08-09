@@ -49,9 +49,13 @@
 }
 
 .card-slider .swiper-button-prev {
-
+  position: absolute;
+  top: 125px;
+  left: 0px;
 }
 
 .card-slider .swiper-button-next {
-
+  position: absolute;
+  top: 125px;
+  right: 10px;
 }

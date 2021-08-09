@@ -1,6 +1,6 @@
 // swiper initialization
 new Swiper('.card-slider', {
-  
+
   // arrows
   navigation: {
     nextEl: '.swiper-button-next',
@@ -21,5 +21,7 @@ new Swiper('.card-slider', {
   slidesPerGroup: 1,
   //infinite
   loop: true,
-  
+
+
+
 });

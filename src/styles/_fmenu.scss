@@ -23,6 +23,9 @@
 
 @media screen and (max-width: 760px) {
   .fmenu {
+    width: 100%;
+    gap: 20px;
+  
     &__product-list li {
       font-size: 12px;
     }
